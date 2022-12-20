@@ -1,0 +1,22 @@
+.all{   
+    width: 100% !important;
+    margin: 0;
+    padding: 0;
+}
+
+.one {
+    width: 100% !important;
+    position: relative;
+    height: 500px;
+    margin: 0;
+    padding: 0;
+}
+
+
+@media (max-width: 1000px) {
+    .all {
+        .one {
+            height: 300px;
+        }
+    }
+}

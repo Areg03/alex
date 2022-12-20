@@ -1,0 +1,22 @@
+.article {
+    .section {
+        .image {
+            position: relative;
+            .mug {
+                width: 210px;   
+                height: 347px;
+                background: linear-gradient(0deg, #000000, #000000), #0B0706;
+                border-radius: 20px;
+            }
+            h5 {
+                position: absolute;
+                max-width: 200px;
+                bottom: 190px;
+                left: 5px;
+                font-size: 15px;
+                font-weight: 300;
+                color: white;
+            }
+        }
+    }
+}

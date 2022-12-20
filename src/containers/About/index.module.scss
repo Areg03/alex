@@ -1,0 +1,28 @@
+.article {
+    flex-wrap: wrap-reverse;
+    .section {
+        width: 44%;
+    } 
+    .section1 {
+        width: 44%;
+    }
+}
+
+
+
+
+
+@media (max-width: 942px) {
+    .article {
+        .section {
+            width: 80%;
+        }
+        .section1 {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+        }
+    }
+}
+
+

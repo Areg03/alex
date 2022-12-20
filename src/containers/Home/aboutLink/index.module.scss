@@ -1,0 +1,31 @@
+.article {
+    flex-wrap: wrap;
+    .section {
+        width: 44%;
+        .header {
+            color: #0478A9;
+        }  
+    } 
+    .section1 {
+        width: 44%;
+    }
+}
+
+
+
+
+
+@media (max-width: 942px) {
+    .article {
+        .section {
+            width: 80%;
+        }
+        .section1 {
+            display: flex;
+            justify-content: center;
+            width: 80%;
+        }
+    }
+}
+
+
